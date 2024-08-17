@@ -786,8 +786,12 @@ img{
 
 }
 
-.about-section .education,
-.about-section .experience{
+.about-section .monday,
+.about-section .tuesday,
+.about-section .wednesday,
+.about-section .thursday,
+.about-section .friday
+{
     padding-bottom: 80px;
 }
 
@@ -1480,6 +1484,16 @@ body > div.pp.portfolio-popup.open > div.pp-details.active > div > div.pp-title 
     max-width: 100%;
     text-align: right;
     padding: 0 15px;
+}.timeline-item:nth-child(4) .icon {
+    color: blue; /* Ganti warna ikon untuk Rabu */
+}
+
+.timeline-item:nth-child(5) .icon {
+    color: green; /* Ganti warna ikon untuk Kamis */
+}
+
+.timeline-item:nth-child(6) .icon {
+    color: red; /* Ganti warna ikon untuk Jumat */
 }
 
 /***** End contact section *****/

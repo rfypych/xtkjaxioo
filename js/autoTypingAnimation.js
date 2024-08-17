@@ -1,7 +1,7 @@
 setTimeout(function() {
     $('.about-info-inner').typed({
       strings: [
-        "<span>Hi, I am Golam Morsed</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius officia ea ut vonsectetur adipisicing elit. Illo voluptatum iste, tempora rem obcaecati omnis delectus sunt, consequuntur, et ut quasi aperiam assumenda! <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex beatae reprehenderit vero maiores dignissimos error vitae, optio inventore explicabo quia officiis magni delectus? Lorem ipsum dolor, sit amet consectetur"
+        "<span>Hi👋, ExtekoA_</span>  is part of SMK PGRI 1 Ngawi and the class of 2024. This class is under the guidance of Mrs. Linda Ayu Lutfiana and Danu Eka Ramdhani as the Class Leader. With a total of 35 students, We study to improve vocational and technological skills."
       ],
       typeSpeed: 7,
       contentType: 'html'
