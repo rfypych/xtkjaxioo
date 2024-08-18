@@ -27,7 +27,6 @@ class VanillaTilt {
     this.betazero = null;
     this.lastgammazero = null;
     this.lastbetazero = null;
-    */
 
     this.transitionTimeout = null;
     this.updateCall = null;
@@ -64,7 +63,7 @@ class VanillaTilt {
   static isSettingTrue(setting) {
     return setting === "" || setting === true || setting === 1;
   }
-
+    */
   /**
    * Method returns element what will be listen mouse events
    * @return {Node}
