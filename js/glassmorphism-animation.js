@@ -22,10 +22,12 @@ class VanillaTilt {
     this.top = null;
 
     // for Gyroscope sampling
+    /*
     this.gammazero = null;
     this.betazero = null;
     this.lastgammazero = null;
     this.lastbetazero = null;
+    */
 
     this.transitionTimeout = null;
     this.updateCall = null;
