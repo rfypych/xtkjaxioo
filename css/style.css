@@ -629,12 +629,12 @@ img{
     max-width: 450px;
     display: block;
     margin: auto;
-    border-radius: 50%;
-    padding: 15px;
+    border-radius: 0%;
+    padding: 10px;
 }
 .home-section .home-image .img-box img{
     width: 100%;
-    border-radius: 50%;
+    border-radius: 0%;
     border: 10px solid transparent;
 }
 
