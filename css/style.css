@@ -921,7 +921,7 @@ img{
 .service-section .service-item-inner{
     padding: 50px 15px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 15px;
     width: 100%;
     transform: translateZ(20px)
 }
