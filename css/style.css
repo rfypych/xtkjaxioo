@@ -911,7 +911,7 @@ img{
 .service-section .service-item{
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    padding: 9px 80px;
+    padding: 10px 100px;
     display: flex;
     flex-wrap: wrap;
     transform-style: preserve-3d;
