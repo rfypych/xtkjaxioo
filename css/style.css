@@ -1386,11 +1386,12 @@ body > div.pp.portfolio-popup.open > div.pp-details.active > div > div.pp-title 
 }
 
 #contact > div > div:nth-child(2){
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .contact-section .contact-item{
-    padding: 15px;
+    padding: 70px;
+    margin: 10px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
     display: flex;
@@ -1400,12 +1401,12 @@ body > div.pp.portfolio-popup.open > div.pp-details.active > div > div.pp-title 
 .contact-section .contact-item-inner{
     padding: 30px 15px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
 }
 
 .contact-section .contact-item-inner i{
-    font-size: 25px;
+    font-size: 50px;
     color: var(--skin-color);
 }
 
@@ -1417,6 +1418,12 @@ body > div.pp.portfolio-popup.open > div.pp-details.active > div > div.pp-title 
     margin: 10px 0 5px;
     text-transform: capitalize;
     transition: all 0.5 ease;
+}
+
+.contact-item-inner a {
+    padding: 30px; /* Sesuaikan ukuran padding sesuai kebutuhan */
+    display: inline-block; /* Untuk memastikan padding bekerja dengan baik */
+    border-radius: 20px;
 }
 
 .contact-section .contact-item-inner p{
