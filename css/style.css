@@ -911,7 +911,7 @@ img{
 .service-section .service-item{
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    padding: 15px;
+    padding: 15px 80px;
     display: flex;
     flex-wrap: wrap;
     transform-style: preserve-3d;
@@ -1390,7 +1390,7 @@ body > div.pp.portfolio-popup.open > div.pp-details.active > div > div.pp-title 
 }
 
 .contact-section .contact-item{
-    padding: 70px;
+    padding: 15px 80px;
     margin: 10px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
