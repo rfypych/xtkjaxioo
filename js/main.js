@@ -92,16 +92,21 @@ function bodyScrollingToggle() {
 
 /* --------------- portfolio filter and popup ----------------- */
 (() => {
-    const filterContainer = document.querySelector(".portfolio-filter"),
-    portfolioItemsContainer = document.querySelector(".portfolio-items"),
-    portfolioItems = document.querySelectorAll(".portfolio-item"),
-    popup = document.querySelector(".portfolio-popup"),
-    preBtn = popup.querySelector(".pp-pre"),
-    nextBtn = popup.querySelector(".pp-next"),
-    closeBtn = popup.querySelector(".pp-close"),
-    projectDetailsContainer = popup.querySelector(".pp-details"),
-    project_details = popup.querySelector(".pp-project-details"),
-    projectDetailsBtn = popup.querySelector(".pp-project-details-btn");
+    const filterContainer = document.querySelector(".portfolio-filter");
+    const portfolioItemsContainer = document.querySelector(".portfolio-items");
+    const popup = document.querySelector(".portfolio-popup");
+
+    if (!filterContainer || !portfolioItemsContainer || !popup) {
+        return;
+    }
+
+    const portfolioItems = portfolioItemsContainer.querySelectorAll(".portfolio-item");
+    const preBtn = popup.querySelector(".pp-pre");
+    const nextBtn = popup.querySelector(".pp-next");
+    const closeBtn = popup.querySelector(".pp-close");
+    const projectDetailsContainer = popup.querySelector(".pp-details");
+    const project_details = popup.querySelector(".pp-project-details");
+    const projectDetailsBtn = popup.querySelector(".pp-project-details-btn");
     let itemIndex, slideIndex, screenshots;
 
     /* filter portfolio items */
